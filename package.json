@@ -1,0 +1,18 @@
+{
+  "name": "node-currency-converter",
+  "version": "1.0.0",
+  "description": "Simple Node.js currency converter. Makes use of Redis for caching.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Olayinka Omole <olayinka.omole@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "bluebird": "^3.5.1",
+    "express": "^4.16.2",
+    "redis": "^2.8.0"
+  }
+}
